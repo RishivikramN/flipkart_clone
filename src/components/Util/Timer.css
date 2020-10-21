@@ -1,0 +1,11 @@
+.Timer_Container{
+    color:grey;
+}
+
+.Timer_Seperator{
+    margin:2px;
+}
+
+.Timer_ExpiredText{
+    margin: 5px;
+}

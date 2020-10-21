@@ -1,0 +1,44 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: flex-end;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.product > img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product > img:hover{
+    height: 55%;
+    width: 55%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+
+.product_info{
+    height: 100px;
+    margin-top: 10px;
+    position: static;
+}
+
+.product_title{
+    font-weight: 500;
+}
+
+.product_offer{
+    margin-bottom: 5px;
+    color: green;
+}
+.product_caption{
+    margin-bottom: 5px;
+    color: grey;
+}

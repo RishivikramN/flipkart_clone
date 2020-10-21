@@ -1,0 +1,39 @@
+.headerstrip_container{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.headerstrip_innercontainer{
+    margin-left: 120px;
+    display: flex;
+}
+
+.headerstrip_content{
+    cursor: pointer;
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 50px;
+    
+}
+
+.expandmore_Icon{
+  color: grey !important;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.headerstrip_content:hover{
+    color: #2874f0 !important;
+}
+
+.expandmore_Icon:hover{
+    transform: rotateZ(-180deg);
+    color: #2874f0 !important;
+}
+
+
+.headerstrip_contentcontainer i:hover{
+    transform: rotateZ(-180deg);
+    color: #2874f0 !important;
+}

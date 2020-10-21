@@ -1,0 +1,48 @@
+.midstrip_container{
+    flex-grow: 1;
+}
+.midstrip_item_container{
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.midstrip_title{
+    font-size: 22px;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.timer_icon{
+    height: 24px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.midstrip_timer{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.midstrip_btn_container{
+    margin-left: 790px ;
+}
+
+.midstrip_viewall_btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #2874f0;
+    font-weight: 500;
+    font-size: small;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}

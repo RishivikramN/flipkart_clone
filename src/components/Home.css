@@ -1,0 +1,16 @@
+.home_midstrip{
+    display: flex;
+    flex-direction: row;
+}
+
+.home_midstrip_product_container{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.home_productbannercard{
+    flex: 1;
+    margin-right: 10px;
+}
